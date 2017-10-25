@@ -37,13 +37,6 @@ app.get('/hello', (req, res) => {
   });
 });
 
-app.get('/sup', (req, res) => {
-  res.render('sup.hbs',{
-    pageTitle: 'Sup'
-  });
-});
-
-
 
 
 app.listen(port, () => {
